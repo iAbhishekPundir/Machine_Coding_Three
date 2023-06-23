@@ -4,39 +4,38 @@
   padding: 2rem;
   text-align: center;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.snacks-table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.snacks-table th,
+.snacks-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.snacks-table th {
+  background-color: #f2f2f2;
+}
+.snacks-table th:hover {
+  background-color: #ef4444;
+  cursor: pointer;
 }
 
-.card {
-  padding: 2em;
+.snacks-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
 }
 
-.read-the-docs {
-  color: #888;
+.snacks-table tbody tr:hover {
+  background-color: #4ade80;
+}
+
+input[type="text"] {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  min-width: 250px;
 }
