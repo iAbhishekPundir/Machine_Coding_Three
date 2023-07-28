@@ -1,1 +1,1 @@
-# snacks-app
+# my-snacks-app
